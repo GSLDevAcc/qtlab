@@ -18,10 +18,10 @@ interface SectionWithItems extends Section {
   items: Item[]
 }
 
-interface SectionData {
-  scoreSummary: ScoreSummary | undefined
-  sections: SectionWithItems[] | undefined
-}
+// interface SectionData {
+//   scoreSummary: ScoreSummary | undefined
+//   sections: SectionWithItems[] | undefined
+// }
 
 function LoadingState() {
   return (

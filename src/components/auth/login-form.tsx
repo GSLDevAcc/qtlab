@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { useAuth } from '@/contexts/auth-context'
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
+//import Image from 'next/image'
 
 interface LoginFormData {
   email: string
@@ -19,7 +19,7 @@ export function LoginForm() {
   const onSubmit = async (data: LoginFormData) => {
     try {
       await login(data.email, data.password)
-    } catch (err) {
+    } catch (errors) {
       setError('Invalid credentials')
     }
   }

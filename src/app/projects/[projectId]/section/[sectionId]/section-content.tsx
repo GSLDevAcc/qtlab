@@ -11,19 +11,19 @@ import {
   SectionContentProps,
   getAnswerText,
   getAnswerId,
-  getPointsForAnswer
-} from '@/types/audit'
+  
+} from '@/types/audit' //getPointsForAnswer
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import { calculateSectionMetrics, calculateOverallScore } from '@/lib/audit-calculations'
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 
-interface CalculationMetrics {
-  weightedTpp: number;
-  weightedPoints: number;
-  markdownCorrection: number;
-  weightedPointsMarkdown: number;
-}
+// interface CalculationMetrics {
+//   weightedTpp: number;
+//   weightedPoints: number;
+//   markdownCorrection: number;
+//   weightedPointsMarkdown: number;
+// }
 
 export function SectionContent({ sectionData, projectId }: SectionContentProps) {
   const router = useRouter()
