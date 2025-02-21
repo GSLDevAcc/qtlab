@@ -58,24 +58,7 @@ const auditData: Partial<Database> = {
       minorNC: 0,
       majorNC: 0
     },
-    {
-      id: '1.1',
-      companyId: '1',
-      userId: '1',
-      item: 'Front food handling area 2',
-      percentagePerSection: 100,
-      minorNC: 0,
-      majorNC: 0
-    },
-    {
-      id: '1.2',
-      companyId: '1',
-      userId: '1',
-      item: 'Front food handling area 2',
-      percentagePerSection: 100,
-      minorNC: 0,
-      majorNC: 0
-    },
+   
     {
       id: '2',
       companyId: '1',
@@ -542,6 +525,13 @@ const auditData: Partial<Database> = {
 
   // Items
   items: [
+    {
+      id: '10.22',
+      companyId: '1',
+      sectionId: '7',
+      question: 'TES TEST TEST',
+      tpp: 2
+    },
     {
       id: '2.1',
       companyId: '1',

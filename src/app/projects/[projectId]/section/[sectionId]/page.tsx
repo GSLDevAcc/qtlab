@@ -3,7 +3,7 @@
 
 import { Suspense, use } from 'react'
 import { SectionContent } from './section-content'
-import auditData, { getSectionData } from '@/lib/audit-data'
+import  { getSectionData } from '@/lib/audit-data' //auditData,
 import { Card } from '@/components/ui/card'
 import { Section, ScoreSummary, Item } from '@/types/audit'
 
